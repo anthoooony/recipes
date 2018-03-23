@@ -1,0 +1,68 @@
+img {
+  border: 5px solid olive;
+  padding: 5px;
+}
+
+nav {
+    position: fixed;
+    background: mistyrose;
+    width: 20rem;
+    margin-left: -14em;
+    top: 4rem;
+    opacity: 0.6;
+}
+      
+nav:hover {
+    margin-left: 0em;
+    opacity: .99;
+}
+
+nav ul {
+    padding-left: 25px;
+}
+      
+body {
+    font-size: 120%;
+    margin: 0;
+}
+          
+img {
+    height: 280px;
+    border: 5px solid olive;
+    padding: 5px;
+}
+        
+article {
+    min-width: 20rem;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+        
+h1 {
+    position: fixed;
+    width: 100%;
+    background: olive;
+    text-align: center;
+    margin: 0;
+    top: 0;
+}
+
+table {
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+
+td.ingrediants {
+    text-align: left;
+    padding-right: 2em;
+}
+
+td.amount {
+    text-align: right;
+    padding-left: 2em;
+}
